@@ -1,0 +1,46 @@
+H1 {
+    color: #808080;
+}
+H1 {
+    border: solid;
+    margin: 20px;
+}
+.Heading{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Instagram{
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: aqua;
+}
+p{
+    text-align: center;
+}
+.angrybird{
+    position: relative;
+}
+.angrybird p{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    opacity: 0;
+}
+.angrybird:hover img{
+    opacity: 0.4;
+}
+.angrybird:hover p{
+    opacity: 1;
+}
